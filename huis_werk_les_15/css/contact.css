@@ -1,0 +1,90 @@
+html{
+    background-color: azure;
+}
+.menu{
+    background-color: rgb(2, 92, 125);
+    box-shadow:inset 2px 3px 2px rgb(9, 178, 235);
+    color: gold;
+    border:2px solid black;
+    min-width:750px;
+    max-width: 803px;
+    min-height: 25px;
+    max-height: 50px;
+    margin:2px 3px;
+    padding:2px 3px;
+}
+button{
+    display:inline;
+    border:2px solid black;
+    border-radius:30%;
+    background-color: rgb(9, 178, 235);
+    color:gold;
+    padding:2px 3px;
+    margin:2px 3px;
+    box-shadow: -2px 3px 2px azure;
+    text-shadow: -2px 3px 2px blueviolet;
+}
+button:hover{
+    background-color:antiquewhite;
+    color:black;
+    box-shadow: -2px 3px 3px snow;
+}
+button:active{
+    background-color: #335598;
+    color: gray;
+    text-shadow: 2px 2px 2px black;      
+}
+#cv{
+    display: inline-block;
+}
+#contact{
+    display: inline-block;
+}
+#les9{
+    display: inline-block;
+}
+#les12{
+    display: inline-block ;
+}
+form{
+    border:2px solid black;
+    background-color: rgb(2, 92, 125);
+    color:gold;
+    box-shadow:inset 2px 3px 2px rgb(9, 178, 235);
+    min-width: 750px;
+    max-width: 809px;
+}
+input{
+    border:1px solid black;
+    display:block;
+    margin:2px 3px;
+    padding:2px 3px;
+    color:black;
+    box-shadow:inset 2px 3px 2px rgb(9, 178, 235);
+}
+input::placeholder{
+    border:1px solid black;
+    box-shadow:inset 2px 3px 2px rgb(9, 178, 235);
+}
+textarea{
+    border:1px solid black;
+    display:block;
+    min-height: 50px;
+    margin:2px 3px;
+    padding:2px 3px;
+    color:black;
+    box-shadow:inset 2px 3px 2px rgb(9, 178, 235);
+}
+footer{
+    border:2px solid black;
+    background-color: rgb(2, 92, 125);
+    color:gold;
+    box-shadow:inset 2px 3px 2px rgb(9, 178, 235);
+    min-width: 750px;
+    max-width: 800px;
+    min-height: 75px;
+    max-height: 150px;
+    text-shadow: -2px 3px 2px blueviolet;
+    margin:2px 3px;
+    padding:2px 5px;
+}
